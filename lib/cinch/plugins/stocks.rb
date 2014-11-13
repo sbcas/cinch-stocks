@@ -18,7 +18,7 @@ module Cinch
         super
       end
 
-      match(/(?:s|stock) (.+)/, method: :stock)
+      match(/stock (.+)/, method: :stock)
 
       def stock(m, query)
         m.reply get_stock(query)

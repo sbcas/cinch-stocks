@@ -3,7 +3,7 @@ module Cinch
   module Plugins
     # Versioning info
     class Stocks
-      VERSION = '0.1.2'
+      VERSION = '0.1.3'
     end
   end
 end
