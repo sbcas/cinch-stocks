@@ -19,11 +19,11 @@ module Cinch
           @open = @data.open
           @high = @data.days_high
           @low = @data.days_low
+        end
 
-          def to_s
-            "#{symbol} #{name} price: #{last_trade} #{change_percent} " \
-            "close: #{close} open: #{open} high: #{high} low: #{low}"
-          end
+        def to_s
+          "#{symbol} #{name} price: #{last_trade} #{change_percent} " \
+          "close: #{close} open: #{open} high: #{high} low: #{low}"
         end
       end
     end
