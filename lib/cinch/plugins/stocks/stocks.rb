@@ -22,8 +22,8 @@ module Cinch
         end
 
         def to_s
-          "#{symbol} #{name} price: #{last_trade} #{change_percent} " \
-          "close: #{close} open: #{open} high: #{high} low: #{low}"
+          "#{@symbol} #{@name} price: #{@last_trade} #{@change_percent} " \
+          "close: #{@close} open: #{@open} high: #{@high} low: #{@low}"
         end
       end
     end
